@@ -24,6 +24,7 @@ int main(void) {
     while (1) {
         tmpA = PINA;
 	tmpB = PINB;
+	tmpC = 0x00;
 	while (tmpA) {
 	    tmpC += (tmpA & 0x01);
 	    tmpA >>= 1;
