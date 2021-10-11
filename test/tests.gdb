@@ -48,7 +48,7 @@ setPINB 0x00
 # Continue for several ticks
 continue 5
 # Set expect values
-expectPORTD 0x04
+expectPORTB 0x04
 # Check pass/fail
 checkResult
 
@@ -60,7 +60,7 @@ setPINB 0x01
 # Continue for several ticks
 continue 5
 # Set expect values
-expectPORTD 0x00
+expectPORTB 0x00
 # Check pass/fail
 checkResult
 
